@@ -1,4 +1,4 @@
-export default function Body(props) {
+export default function Body(props: {name: string; age: number}) {
     console.log(props)
     return (
         <>
