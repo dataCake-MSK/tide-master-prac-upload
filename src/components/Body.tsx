@@ -1,8 +1,9 @@
-export default function Body(props: {name: string; age: number}) {
+export default function Body(props: {userObj: { name: string; age: number; male: boolean;}}) {
     console.log(props)
     return (
         <>
-            <p>Your are: {props.name}, and {props.age} years old</p>
+            <p>Your are {props.userObj.name}, and {props.userObj.age} years old.</p>
+            <p>{props.userObj.male ? "You are male" : "You are female" }.</p>
         </>
     )
 }
