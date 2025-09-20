@@ -19,4 +19,12 @@ export default function App(){
   )
 }
 
-- 
+- git 푸시
+git init 
+.gitignore 생성
+venv도 무시
+git add .
+git commit -m " "
+git remote add origin https://github.com/dataCake-MSK/tide-master-prac-upload.git
+git branch 
+git push -u origin main
