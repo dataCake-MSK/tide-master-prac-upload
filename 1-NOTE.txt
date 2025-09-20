@@ -1,0 +1,22 @@
+250920
+- vite 프로젝트 생성
+- venv 환경 생성
+- 프로젝트 구조 정리
+npm create vite@latest .
+npm install
+npm run dev
+python -m venv venv
+venv\Scripts\activate
+src/assets 안에 삭제
+App.css 내용 주석
+index.css 내용 주석
+App.tsx 단순화:
+export default function App(){
+  return(
+    <>
+      <div>Hello</div>
+    </>
+  )
+}
+
+- 
